@@ -1,23 +1,114 @@
-# Huihui Huang
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Huihui Huang</title>
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      border-bottom: 1px solid #444;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+    .container {
+      padding: 20px;
+    }
+    .profile {
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .profile img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+    .profile p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+    h2 {
+      color: #f2f2f2;
+      margin-top: 30px;
+    }
+    ul {
+      line-height: 1.6;
+    }
+    .news-item {
+      margin-top: 10px;
+    }
+    .news-item span {
+      font-weight: bold;
+    }
+    .news-item p {
+      margin: 5px 0 0 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Huihui Huang</h1>
+    <nav>
+      <a href="#">About</a>
+      <a href="#">Publications</a>
+      <a href="#">CV</a>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="profile">
+      <img src="profile.jpg" alt="Profile photo" />
+      <div>
+        <p>CS PhD student at Singapore Management University</p>
+        <p>
+          I am a first-year PhD student in the Software Analytics Research (SOAR) group at the Singapore Management University (SMU), fortunate to be advised by Prof. David Lo. 
+          Before starting my PhD, I completed my Bachelor's degree at Southern University of Science and Technology (SUSTech), mentored by Prof. Yuqun Zhang. 
+          I also worked as a research intern with Prof. Umang Mathur at NUS.
+        </p>
+        <p>Contact: hh.huang.2024@phdcs.smu.edu.sg or huihuihuang0904@gmail.com</p>
+      </div>
+    </div>
 
-CS PhD student at Singapore Management University
+    <h2>Research Interests</h2>
+    <ul>
+      <li>Vulnerability Detection</li>
+      <li>Software Composition Analysis</li>
+      <li>Binary Similarity Detection</li>
+      <li>Translating C to Rust</li>
+    </ul>
 
-I am a first-year PhD student in the Software Analytics Research (SOAR) group at the Singapore Management University (SMU), fortunate to be advised by Prof. David Lo. Before starting my PhD, I completed my Bachelor's degree at Southern University of Science and Technology (SUSTech), where I was mentored by Prof. Yuqun Zhang. I have also worked as a research intern under Prof. Umang Mathur at the National University of Singapore (NUS).
+    <h2>News</h2>
+    <div class="news-item">
+      <span>Jun 20, 2025</span>
+      <p>🎉 My first first-author paper <a href="#">Back to the Basics: Rethinking Issue-Commit Linking with LLM-Assisted Retrieval</a> was accepted to ICSE 2026!</p>
+    </div>
+    <div class="news-item">
+      <span>Aug 12, 2024</span>
+      <p>🛬 Arrived at SMU. Beginning my PhD journey!</p>
+    </div>
+    <div class="news-item">
+      <span>Oct 10, 2023</span>
+      <p>📄 Our paper <a href="#">BinaryAI: Binary Software Composition</a> was accepted to ICSE 2024!</p>
+    </div>
+  </div>
+</body>
+</html>
 
-**Contact:** hh.huang.2024@phdos.smu.edu.sg or huihuihuang0904@gmail.com
-
-## Research Interests:
-- 🔍 Vulnerability Detection
-- 📦 Software Composition Analysis
-- 💻 Binary Similarity Detection
-- 🔄 Translating C to Rust
-
----
-
-## News
-
-**Jun 20, 2025**  
-🎉 My first first-author paper **Back to the Basics: Rethinking Issue-Commit Linking with LLM-Assisted Retrieval** has been accepted to **ICSE 2026!**
-
-**Aug 12, 2024**  
-✈️ Arrived at SMU. Beginning my Ph.D. journey here!
