@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Huihui Huang</title>
+  <title>Jie Fu</title>
   <style>
     html {
       scroll-behavior: smooth;
@@ -68,6 +68,34 @@
     .news-item p {
       margin: 5px 0 0 0;
     }
+
+    /* Publication style */
+    .publication {
+      margin-top: 20px;
+      padding: 15px;
+      background-color: #2c2c2c;
+      border-radius: 8px;
+    }
+    .pub-title {
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+    .pub-authors, .pub-venue {
+      font-size: 0.95em;
+      margin-top: 5px;
+    }
+    .pub-buttons a {
+      display: inline-block;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      padding: 5px 10px;
+      margin: 10px 10px 0 0;
+      border-radius: 4px;
+    }
+    .pub-buttons a:hover {
+      background-color: #0056b3;
+    }
   </style>
 </head>
 <body>
@@ -76,48 +104,62 @@
     <nav>
       <a href="#about">About</a>
       <a href="#research">Research</a>
-      <a href="#news">News</a>
+      <a href="#publications">Publications</a>
       <a href="#cv">CV</a>
     </nav>
   </header>
+
   <div class="container">
+
     <div class="profile" id="about">
       <img src="profile.jpg" alt="Profile photo" />
       <div>
         <p>CS PhD student at Singapore Management University</p>
         <p>
-          I am a first-year PhD student in the Software Analytics Research (SOAR) group at the Singapore Management University (SMU), advised by Prof. David Lo. 
-          Previously, I earned my Bachelor's from Southern University of Science and Technology (SUSTech), mentored by Prof. Yuqun Zhang. 
-          I also interned with Prof. Umang Mathur at NUS.
+          I received my Ph.D. degree in the Key Laboratory of Aerospace Information Security and Trusted Computing at Wuhan University, China, 
+          advised by Prof. Lina Wang. Before that, I received my M.Sc. degree majoring in Software Engineering at Wuhan University.
+
+          My current research interests are mainly about network security and AI security. Specifically, I focus on the security issues on 
+          the deep learning models. Also, I am very interested in the application and security issues of generative artificial intelligence, 
+          as well as multimodal learning.
+
+          I actively serve as a reviewer for numerous prestigious conferences and journals, including ESWA, AI reviewers, and IJCNN, among others.
+
+
         </p>
-        <p>Contact: hh.huang.2024@phdcs.smu.edu.sg or huihuihuang0904@gmail.com</p>
+        <p>Contact:<a href= whuerfu@whu.edu.cn</a></p>
       </div>
     </div>
 
     <h2 id="research">Research Interests</h2>
     <ul>
-      <li>Vulnerability Detection</li>
-      <li>Software Composition Analysis</li>
-      <li>Binary Similarity Detection</li>
-      <li>Translating C to Rust</li>
+      <li>network security </li>
+      <li>AI security</li>
+      <li>generative artificial intelligence</li>
+      <li>LLM</li>
     </ul>
 
-    <h2 id="news">News</h2>
-    <div class="news-item">
-      <span>Jun 20, 2025</span>
-      <p>🎉 My first first-author paper <a href="#">Back to the Basics: Rethinking Issue-Commit Linking with LLM-Assisted Retrieval</a> was accepted to ICSE 2026!</p>
-    </div>
-    <div class="news-item">
-      <span>Aug 12, 2024</span>
-      <p>🛬 Arrived at SMU. Beginning my PhD journey!</p>
-    </div>
-    <div class="news-item">
-      <span>Oct 10, 2023</span>
-      <p>📄 Our paper <a href="#">BinaryAI: Binary Software Composition</a> was accepted to ICSE 2024!</p>
+    <h2 id="Publications">Selected Publications</h2>
+    <div class="publication">
+      <div class="pub-title">
+        TSIDS: Spatial–temporal fusion gating Multilayer Perceptron for network
+intrusion detection
+      </div>
+      <div class="pub-authors">
+        Jie Fu, Lina Wanga, Jianpeng Ke, Kang Yang, Rongwei Yu
+      </div>
+      <div class="pub-venue">
+        Expert Systems With Applications (2025) 
+      </div>
+      <div class="pub-buttons">
+        <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:7OkNXrYBBBMJ:scholar.google.com/&output=citation&scisdr=CgItHGFIEMv47p1ES8Q:AAZF9b8AAAAAaF1CU8Ssgau-CKlCphjrcMEqYaQ&scisig=AAZF9b8AAAAAaF1CU2dTZLRlLKzENzMkrkQ6Jgg&scisf=4&ct=citation&cd=-1&hl=zh-CN" target="_blank">BIB</a>
+        <a href="https://www.sciencedirect.com/science/article/pii/S0957417424025545" target="_blank">PDF</a>
+      </div>
     </div>
 
     <h2 id="cv">CV</h2>
     <p>You can <a href="CV.pdf" target="_blank">download my CV here</a>.</p>
+
   </div>
 </body>
 </html>
