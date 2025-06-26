@@ -31,6 +31,9 @@
       margin-left: 20px;
       text-decoration: none;
     }
+    nav a:hover {
+      text-decoration: underline;
+    }
     .container {
       padding: 20px;
     }
@@ -51,7 +54,7 @@
     }
     h2 {
       color: #f2f2f2;
-      margin-top: 30px;
+      margin-top: 40px;
     }
     ul {
       line-height: 1.6;
@@ -71,26 +74,27 @@
   <header>
     <h1>Huihui Huang</h1>
     <nav>
-      <a href="#">About</a>
-      <a href="#">Publications</a>
-      <a href="#">CV</a>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#news">News</a>
+      <a href="#cv">CV</a>
     </nav>
   </header>
   <div class="container">
-    <div class="profile">
+    <div class="profile" id="about">
       <img src="profile.jpg" alt="Profile photo" />
       <div>
         <p>CS PhD student at Singapore Management University</p>
         <p>
-          I am a first-year PhD student in the Software Analytics Research (SOAR) group at the Singapore Management University (SMU), fortunate to be advised by Prof. David Lo. 
-          Before starting my PhD, I completed my Bachelor's degree at Southern University of Science and Technology (SUSTech), mentored by Prof. Yuqun Zhang. 
-          I also worked as a research intern with Prof. Umang Mathur at NUS.
+          I am a first-year PhD student in the Software Analytics Research (SOAR) group at the Singapore Management University (SMU), advised by Prof. David Lo. 
+          Previously, I earned my Bachelor's from Southern University of Science and Technology (SUSTech), mentored by Prof. Yuqun Zhang. 
+          I also interned with Prof. Umang Mathur at NUS.
         </p>
         <p>Contact: hh.huang.2024@phdcs.smu.edu.sg or huihuihuang0904@gmail.com</p>
       </div>
     </div>
 
-    <h2>Research Interests</h2>
+    <h2 id="research">Research Interests</h2>
     <ul>
       <li>Vulnerability Detection</li>
       <li>Software Composition Analysis</li>
@@ -98,7 +102,7 @@
       <li>Translating C to Rust</li>
     </ul>
 
-    <h2>News</h2>
+    <h2 id="news">News</h2>
     <div class="news-item">
       <span>Jun 20, 2025</span>
       <p>🎉 My first first-author paper <a href="#">Back to the Basics: Rethinking Issue-Commit Linking with LLM-Assisted Retrieval</a> was accepted to ICSE 2026!</p>
@@ -111,7 +115,9 @@
       <span>Oct 10, 2023</span>
       <p>📄 Our paper <a href="#">BinaryAI: Binary Software Composition</a> was accepted to ICSE 2024!</p>
     </div>
+
+    <h2 id="cv">CV</h2>
+    <p>You can <a href="CV.pdf" target="_blank">download my CV here</a>.</p>
   </div>
 </body>
 </html>
-
